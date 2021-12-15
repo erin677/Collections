@@ -1,140 +1,183 @@
 :root {
 
-    --BG:#Bddef0;
-    --TC: #023D5F;
-    --Button: #A5C2D2;
+  --BG:#Bddef0;
+  --TC: #023D5F;
+  --Button: #A5C2D2;
 
 
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: "Red Hat Display", sans-serif;
-    background: var(--BG);
-    height: 100vh;
-  }
-  
-  .container {
-    width: 1166px;
-    margin: 0 auto;
-  }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 34px;
-    margin-bottom: 40px;
-    position: fixed;
-    width: 1166px;
-  }
-  
-  .nav-container .logo {
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--TC); 
-  }
-  
-  .nav-container .right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-container .collection-items a {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--TC);
-    text-decoration: none;
-    margin-right: 70px;
-    display: inline-block;
-    transition: all 500ms;
-  }
-  
-  .nav-container .collection-items a:hover {
-    transform: translateY(-2px);
-  }
-  
-  .nav-container .collection-items a.btn {
-    padding: 8px 32px;
-  }
-  
-  /* Buttons */
-  
-  a.btn {
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.22);
-    border-radius: 8px;
-    padding: 12px 32px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    display: inline-block;
-  }
-  
-  
-  a.btn {
-    background: var(--Button);
-    color: var(--TC);
-    border: 1px solid var(--TC);
-  }
-  
-  
-  .hero-section {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    justify-content: space-between;
-    margin: 40px auto;
-    padding: 100px 0;
-  }
-  
-  .hero-section h1 {
-    font-size: 60px;
-    color: var(--TC);
-    line-height: 120%;
-    width: 587px;
-    margin-bottom: 16px;
-    margin-top: 60px;
-  }
+}
 
-  .hero-section h2 {
-    font-size: 45px;
-    color: var(--TC);
-    line-height: 120%;
-    width: 587px;
-    margin-bottom: 16px;
-    margin-top: 60px;
-  }
-  
-  .hero-section p.sub-heading {
-    font-size: 20px;
-    line-height: 170%;
-    color: var(--TC);
-    width: 587px;
-  }
-  
-  .hero-section a.btn {
-    margin-top: 20px;
-    margin-right: 42px;
-  }
-  
-  .hero-section .right {
-    align-self: flex-end;
-  }
-  
-  .hero-section .right img {
-    vertical-align: right;
-    margin-top: auto;
-    height: 500px;
-    margin: 100px auto;
-    border-radius: 50%;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  }
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: var(--BG);
+  height: 100vh;
+}
 
-  .left {
+.container {
+  width: 1166px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 40px;
+  position: fixed;
+  width: 1166px;
+}
+
+.nav-container .logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--TC); 
+}
+
+.nav-container .right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container .collection-items a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--TC);
+  text-decoration: none;
+  margin-right: 70px;
+  display: inline-block;
+  transition: all 500ms;
+}
+
+.nav-container .collection-items a:hover {
+  transform: translateY(-2px);
+}
+
+.nav-container .collection-items a.btn {
+  padding: 8px 32px;
+}
+
+/* Buttons */
+
+a.btn {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  padding: 12px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+
+a.btn {
+  background: var(--Button);
+  color: var(--TC);
+  border: 1px solid var(--TC);
+}
+
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  margin: 40px auto;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 60px;
+  color: var(--TC);
+  line-height: 120%;
+  width: 587px;
+  margin-bottom: 16px;
+  margin-top: 60px;
+}
+
+.hero-section h2 {
+  font-size: 45px;
+  color: var(--TC);
+  line-height: 120%;
+  width: 587px;
+  margin-bottom: 16px;
+  margin-top: 60px;
+}
+
+.hero-section p.sub-heading {
+  font-size: 20px;
+  line-height: 170%;
+  color: var(--TC);
+  width: 587px;
+}
+
+.hero-section a.btn {
+  margin-top: 20px;
+  margin-right: 42px;
+}
+
+.hero-section .right {
+  align-self: flex-end;
+}
+
+.hero-section .right img {
+  vertical-align: right;
+  margin-top: auto;
+  height: 500px;
+  margin: 100px auto;
+  border-radius: 50%;
+
+}
+
+.left {
 margin-top: 34px;
-  }
+}
+.wrapper{
+  margin: auto 0;
+}
+
+.cat-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1200px;
+}
+.imageOne {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+.imageTwo {
+  position: absolute;
+  width:-auto;
+  top: 30px;
+  left: 30px;
+
+ 
+}
